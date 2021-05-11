@@ -1,0 +1,13 @@
+diff --git a/es-app/src/views/gamelist/ISimpleGameListView.h b/es-app/src/views/gamelist/ISimpleGameListView.h
+index 9022cde..2b9d367 100644
+--- a/es-app/src/views/gamelist/ISimpleGameListView.h
++++ b/es-app/src/views/gamelist/ISimpleGameListView.h
+@@ -4,6 +4,7 @@
+ 
+ #include "components/TextComponent.h"
+ #include "components/ImageComponent.h"
++#include <stack>
+ 
+ class ISimpleGameListView : public IGameListView
+ {
+
